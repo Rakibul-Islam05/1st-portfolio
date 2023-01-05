@@ -3,6 +3,13 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background-color: #FFF8F3;
+    background-image:url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 30px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -59,4 +66,40 @@ nav ul li{
     line-height: 30px;
     color: #757575;
     margin-bottom: 20px;
+}
+.about-me{
+    max-width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about-discription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    margin-top: 30px;
+}
+.info-title{
+    color: #757575;
+}
+.info-discription{
+    font-size: 20px;
+    font-weight: bold;
+    color:#474747;
 }
